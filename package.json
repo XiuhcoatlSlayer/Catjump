@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.9.0"
+  },
+  "name": "catjump",
+  "description": "Adopt, raise, breed, and show your feisty felines in this arcade style Discord bot!",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy:commands": "node Scripts/deploycommands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiuhcoatlSlayer/Catjump.git"
+  },
+  "author": "XiuhcoatlSlayer",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/XiuhcoatlSlayer/Catjump/issues"
+  },
+  "homepage": "https://github.com/XiuhcoatlSlayer/Catjump#readme"
+}
