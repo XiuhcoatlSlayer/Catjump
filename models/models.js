@@ -45,8 +45,8 @@ const userSchema = new mongoose.Schema({
     playerLevel: { type: Number, default: 0 },
 
     currentGeneration: { type: Number, default: 1 },
-    currentCat: [currentCatSchema],
-    achievements: [achievementSchema]
+    currentCat: currentCatSchema,
+    achievements: achievementSchema
 
 });
 
